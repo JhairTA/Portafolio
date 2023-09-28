@@ -196,6 +196,7 @@ li a:hover{
 .cart p{
     text-align: justify;
     margin-bottom: 0rem;
+    font-size: 1.2rem;
 }
 
 .cart p:nth-child(2){
@@ -399,6 +400,19 @@ footer{
     color: #C7C7C7;
 }
 
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+  
+  /* Estilo del pulgar de la barra de desplazamiento para navegadores WebKit */
+::-webkit-scrollbar-thumb {
+    background-color: #4F46E5; /* Color del pulgar */
+    border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #5a5a5a; /* Color de la pista de la barra de desplazamiento */
+}
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;

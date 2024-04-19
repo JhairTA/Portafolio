@@ -281,9 +281,9 @@ button:hover:before,button:hover:after{
 .habilidades ul{
     padding-left: 0;
     padding-right: 0;
-    text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
+    max-width: 1230px;
 }
 
 .conteiner-skill{
@@ -508,6 +508,14 @@ footer{
     }
     .cart button{
         font-size:1.3em;
+    }
+
+    .habilidades{
+        margin-bottom: 70px;
+    }
+
+    .Aboutme{
+        margin-bottom: 40px;
     }
 
     .habilidades h2, .contacto h2, .proyectos  h2, .Aboutme h2{

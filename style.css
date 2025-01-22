@@ -327,11 +327,23 @@ button:hover:before,button:hover:after{
 .container-proyectos{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     flex-wrap: wrap;
     max-width: 1200px;
     margin-left: 50px;
     margin-right: 50px;
+    justify-content: center;
+}
+
+.sub-container-proyectos{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+}
+
+.card{
+    width: 30rem;
 }
 
 .card:hover{
@@ -368,7 +380,11 @@ button:hover:before,button:hover:after{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 1299px;
+    max-width: 1199px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin: 0 40px;
 }
 
 .conteiner-contacto p{
@@ -376,8 +392,6 @@ button:hover:before,button:hover:after{
     color: #acacac;
     font-size: 1.5rem;
     margin-bottom: 33px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 
@@ -415,6 +429,8 @@ footer{
 ::-webkit-scrollbar-track {
     background-color: #5a5a5a; /* Color de la pista de la barra de desplazamiento */
 }
+
+
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -453,8 +469,11 @@ footer{
         color: #acacac;
         font-size: 1.3rem;
         margin-bottom: 33px;
-        margin-left: 35px;
-        margin-right: 35px;
+
+    }
+
+    .sub-container-proyectos{
+        flex-direction: column;
     }
     
 }
@@ -541,15 +560,20 @@ footer{
     .container-proyectos{
         flex-direction: column;
     }
-
     
+    .card{
+        width: 25rem;
+    }
+
+    .conteiner-contacto{
+        margin: 0 23px;
+    }
+
     .conteiner-contacto p{
         text-align: justify;
         color: #acacac;
         font-size: 1.3rem;
         margin-bottom: 33px;
-        margin-left: 14px;
-        margin-right: 14px;
     }
     
     
